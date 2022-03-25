@@ -185,7 +185,7 @@ void bitwise_operators() //Advanced - Optional
     //Bitwise operators are designed to work at the bit level.
 
         /*
-        *********************************************************************
+        **********************************************************
         Decimal to Binary Conversion:
 
         Most Significant Bit - Leftmost Bit
@@ -226,7 +226,7 @@ void bitwise_operators() //Advanced - Optional
         Note: '^' is the XOR operator in C++ and is only used here as 
               notation for exponential operation. 
               This will not work in C++. Use the pow() function instead.
-        *********************************************************************
+        **********************************************************
         */
     /*
     Bitwise AND - &

@@ -38,8 +38,8 @@ def data_types():
     e = dict({"key":"value"})
     f = set({"apple","banana","orange"})
     g = bool(True)
-    # dhere are other data types, but these are the ones you will see most often.
-    # dhese types will be explained in greater detail in later lessons.
+    # there are other data types, but these are the ones you will see most often.
+    # these types will be explained in greater detail in later lessons.
 
     return()
 
@@ -84,7 +84,7 @@ def strings():
     print(a[0], a[5])
 
     # a string can be sliced by specifying a range of characters.
-    print(a[1:4]) # the function returns characters from [1] to [4], but does not inlcude [4].
+    print(a[1:4]) # the function returns characters from [1] to [4], but does not include [4].
 
     # a string can be indexed from the end using negative indexing.
     print(a[-5:-1])

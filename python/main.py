@@ -1,10 +1,10 @@
-###########################################################################################
+##################################################################
 # in these notes I will be defining each lesson as a separate function.
 
 # to start viewing the lessons, open the basic.py file in the Lessons folder.
 
 # to see the output of a lesson, uncomment that lesson's function in the main() function.
-###########################################################################################
+##################################################################
 
 # these are the modules for the lesson packages. 
 # the modules contain the functions we will be running to test our code. 
