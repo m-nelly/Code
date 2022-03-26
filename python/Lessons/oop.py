@@ -96,6 +96,44 @@ def objects():
 
 def inheritance():
     # this section will contain notes covering the creation of child classes. 
+
+    # we can use inheritance to assist when creating new classes that need to be similar to existing classes. 
+    # we can create a class with a core set of properties and methods and then create child classes for more specific uses that extend the properties and methods available in the parent class. 
+
+    class Person():
+        def __init__(self, fname, lname): # properties that objects are initialized with.
+            self.firstname = fname # property definitions
+            self.lastname = lname
+
+        def printname(self): # method definition
+            print(self.firstname, self.lastname)
+
+    # we won't create objects for this class.
+    # instead, we will create child classes for the sub types we want to manage with additional properties and methods. 
+
+    class Student(Person):
+        def __init__(self,fname,lname,major,minor): # properties that objcts will be initialized with.
+
+        # defining __init__ in a sub class overwrites the __init__ from the parent which means we need to call it back into the sub class in order to access its properties. 
+        # we do this with the super() function. 
+            super().__init__(fname,lname) # inherit property definitions from parent class.
+            self.major = major # create additional properties.
+            self.minor = minor
+
+        def printfull(self): # create an additional method.
+            print(self.firstname, self.lastname, self.major, self.minor)
+
+    class Professor(Person):
+        def __init__(self, fname, lname, department, specialization):
+            super().__init__(fname,lname)
+
+            self.department = department
+            self.specialization = specialization
+
+        def printfull(self):
+            print(self.firstname, self.lastname, self.department, self.specialization)
+
+
     return()
 
 
