@@ -133,6 +133,15 @@ def inheritance():
         def printfull(self):
             print(self.firstname, self.lastname, self.department, self.specialization)
 
+    # at this point we are ready to define objects for our child classes. 
+
+    John = Student('John', 'Doe','Computer Science','Machine Learning')
+
+    John.printfull()
+
+    Jane = Professor('Jane','Doe','Sciences','Machine Learning')
+
+    Jane.printname()
 
     return()
 

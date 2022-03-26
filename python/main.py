@@ -10,7 +10,7 @@
 # the modules contain the functions we will be running to test our code. 
 import Lessons.basic as basic
 import Lessons.logic as logic
-import Lessons.functions as funtions
+import Lessons.functions as functions
 import Lessons.oop as oop
 import Lessons.files as files
 
