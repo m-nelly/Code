@@ -135,13 +135,13 @@ def inheritance():
 
     # at this point we are ready to define objects for our child classes. 
 
-    John = Student('John', 'Doe','Computer Science','Machine Learning')
+    John = Student('John', 'Doe','Computer Science','Machine Learning') # creates a student object named John.
 
-    John.printfull()
+    John.printfull() # calls the printfull() method from the Student child class. 
 
-    Jane = Professor('Jane','Doe','Sciences','Machine Learning')
+    Jane = Professor('Jane','Doe','Sciences','Machine Learning') # creates a professor object from named Jane.
 
-    Jane.printname()
+    Jane.printname() # calls the printname() method from the Person parent class.
 
     return()
 

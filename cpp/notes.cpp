@@ -131,7 +131,7 @@ void arithmetic_and_assignment_operators()
     cout << (b += 1) << endl; //increments b by one.
     cout << (b -= 1) << endl; //decrements b by one.
     
-    cout << b<< endl;
+    cout << b << endl;
     cout << b++ << endl; //Increments after sending to ourput.
     cout << b << endl ; 
     cout << ++b << endl; //Increments before sending to output.
@@ -199,7 +199,7 @@ void bitwise_operators() //Advanced - Optional
 
         Formula: (2 ^ (n-1)) where n is positions from the left.
 
-        Example: 155 > Binary
+        Example: 155 -> Binary
 
         1. Determine significant bits. 
             Add one to the highest x where (2 ^ x) < 155 
@@ -285,7 +285,7 @@ void bitwise_operators() //Advanced - Optional
 
 void conditional_statements()
 {
-    //This lesson should be relatively straghtforward.
+    //This lesson should be relatively straightforward.
     //If further explanation would be helpful, please comment on GitHub.
     int a, b;
     
