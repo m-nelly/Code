@@ -7,7 +7,7 @@ def tcp_client():
 
     # the easiest way to manage the added complexity is to learn the basics of how socket works and then look for examples of the protocol you are trying to work with. In most cases, there is another module you can import for that protocol which would be easier to use than socket. 
 
-    # in this scenario, we will be building a simple TCP client to do an HTTP request out to www.google.com.
+    # in this scenario, we will be building a simple TCP client to send an HTTP request out to www.google.com.
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
